@@ -87,12 +87,12 @@ export default function Form() {
 
                         <span> or use your email for registration</span>
                           
-                    <div>
+                    {/* <div>
                       <i className="fas fa-user"> </i>
                         <input type="text" placeholder="name" value={name}
-                            onChange={(e) => setName(e.target.value)} />
-                        {name===''&& accept && <h3 className="error"> ! </h3>}
-                  </div> 
+                         onChange={(e) => setName(e.target.value)} />
+                       {name===''&& accept && <h3 className="error"> ! </h3>}
+                </div>  */}
                         
                         <div >
                         <i className="fas fa-envelope"></i>
